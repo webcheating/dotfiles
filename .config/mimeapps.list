@@ -1,0 +1,13 @@
+[Added Associations]
+application/xml=org.xfce.mousepad.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;
+application/x-zerosize=org.xfce.mousepad.desktop;nsxiv.desktop;
+image/jpeg=nsxiv.desktop;
+image/png=nsxiv.desktop;
+video/x-matroska=vlc.desktop;
+application/x-desktop=wine-protocol-prbf2.desktop;wine-extension-vbs.desktop;
+application/x-theme=org.xfce.mousepad.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop.desktop;
+
+[Default Applications]
+x-scheme-handler/tonsite=org.telegram.desktop.desktop

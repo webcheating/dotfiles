@@ -1,0 +1,15 @@
+# Program launcher
+Super_L; @Super_L
+	rofi -show drun -theme /home/user0o1/.local/share/rofi/themes/minimal.rasi
+	#rofi -show {run, drun, window} -theme /home/user0o1/.local/share/rofi/themes/minimal.rasi
+
+# Скриншот зоны на Alt+S
+alt + s
+	/home/user0o1/.config/openbox/scripts/ob-screenshot --area
+
+# Скриншот всего экрана на Alt+Shift+S
+ctrl + shift + s
+	/home/user0o1/.config/openbox/scripts/ob-screenshot --now
+
+#alt + Tab
+#	rofi -show window -theme /home/user0o1/.local/share/rofi/themes/minimal.rasi -kb-accept-entry "!Alt-Tab,!Alt+Alt_L" -kb-row-down "Alt+Tab" -kb-row-up "Alt+q" -selected-row 1
