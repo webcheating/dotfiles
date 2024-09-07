@@ -4,3 +4,11 @@ openbox-menu-icons >> /usr/share/icons/..
 pipemenus >> /usr/share/..
 menulib >> /usr/share/..
 themes >> /usr/share/..
+
+fonts >>
+noto-fonts-emoji
+ttf-font-awesome
+ttf-symbola
+otf-openmoji
+ttf-mac-fonts
+https://wiki.archlinux.org/title/Fonts#Emoji_and_symbols
