@@ -1,9 +1,7 @@
 .config >> /home/<USER>/..
 .themes >> /home/<USER>/..
-openbox-menu-icons >> /usr/share/icons/..
-pipemenus >> /usr/share/..
-menulib >> /usr/share/..
 themes >> /usr/share/..
+menulib >> /usr/share/..
 
 fonts >>
 noto-fonts-emoji
