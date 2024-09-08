@@ -12,3 +12,8 @@ ttf-symbola
 otf-openmoji
 ttf-mac-fonts
 https://wiki.archlinux.org/title/Fonts#Emoji_and_symbols
+
+obmenu-generator >>
+obmenu-generator -S /home/<USER>/.config/openbox/obmenu-generator/schema.pl
+obmenu-generator -C /home/<USER>/.config/openbox/obmenu-generator/config.pl
+obmenu-generator -o /home/<USER>/.config/openbox/menu-icons.xml or menu.xml
