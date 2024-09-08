@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE menu [
-  <!ENTITY icons "/usr/share/icons/openbox-menu-icons/">
-  <!ENTITY pipes "/usr/share/pipemenus">
+  <!ENTITY icons "/home/user0o1/.config/openbox/icons/">
+  <!ENTITY pipes "/home/user0o1/.config/openbox/scripts">
 ]>
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">

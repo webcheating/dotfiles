@@ -145,7 +145,7 @@
        desktops.  Set this to 0 to disable the popup. 
   </desktops> -->
   <resize>
-    <drawContents>yes</drawContents>
+    <drawContents>no</drawContents>
     <popupShow>Nonpixel</popupShow>
     <!-- 'Always', 'Never', or 'Nonpixel' (xterms and such) -->
     <popupPosition>Center</popupPosition>
@@ -166,9 +166,9 @@
      cases. -->
   <margins>
     <top>0</top>
-    <bottom>15</bottom>
-    <left>15</left>
-    <right>15</right>
+    <bottom>0</bottom>
+    <left>0</left>
+    <right>0</right>
   </margins>
   <dock>
     <position>TopLeft</position>
@@ -286,7 +286,13 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-    <!-- Keybindings for window switching -->
+    <!-- Keybingds for Ctrl+q
+    <keybind key="C+q">
+	    <action name="Execute">
+		    <command>/bin/true</command>
+	    </action>
+    </keybind> -->
+    <!-- Keybindinds for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
         <finalactions>
